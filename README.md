@@ -1,0 +1,1 @@
+### Change collation of an existing database including tables' columns
