@@ -20,7 +20,8 @@ Column collation is different. We can not change collation of database's columns
 - A statistic
 - A computed column
 - A CHECK constrain
-So in order to change column's collation we have to drop these references first. Before doing that we need properly save these constrains and then restore them after changing the collation.
+
+So in order to change column's collation we have to drop these references first. Before doing that we need properly to save these constrains and then restore them after changing the collation.
 
 In my case I have a database with just primary key, index and foreign key constrains. I created scripts to generate dropping and creating scripts for these objects below
 - [1. Drop Foreign Keys Script.sql](1.%20Drop%20Foreign%20Keys%20Script.sql)
