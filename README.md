@@ -38,3 +38,8 @@ If you have more kind of constrains you would have to create new scripts to gene
 To generate changing columns' collation script use [4. Change Collumns Collation Script.sql](/4.%20Change%20Collumns%20Collation%20Script.sql)
 
 Notice that dropping foreign keys must be executed before dropping primary keys so these scripts should be executed in the order specified by the prefix number in their name
+
+#### Others
+Another way to generate scripts is to use SQL Server Management Studio
+
+*Right click on a database* that you want to generate scripts -> *Tasks* -> *Generate Scripts*. In Generate Scripts dialog you can choose what kinds of object scripts you want to generate
