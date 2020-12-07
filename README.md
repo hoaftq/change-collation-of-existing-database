@@ -43,3 +43,7 @@ Notice that dropping foreign keys must be executed before dropping primary keys 
 Another way to generate scripts is to use SQL Server Management Studio
 
 *Right click on a database* that you want to generate scripts -> *Tasks* -> *Generate Scripts*. In Generate Scripts dialog you can choose what kinds of object scripts you want to generate
+
+#### References
+https://docs.microsoft.com/en-us/sql/relational-databases/collations/set-or-change-the-column-collation?view=sql-server-ver15
+
